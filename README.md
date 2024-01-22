@@ -23,23 +23,23 @@ Replace `[my-app-name]` with the name of your new project directory, for example
 composer create-project nguyenanhung/codeigniter3-vercel-skeleton my-website
 ```
 
-## Start Application on Local
+## Start Application on Docker
 
 Quickly deploy the application with a pre-built Docker container:
 
-1. Build the Docker container:
+Build the Docker container:
 
 ```shell
 docker-compose build
 ```
 
-2. Start the application:
+Start the application on Docker:
 
 ```shell
 docker-compose up -d
 ```
 
-3. Add url to hosts file
+Add url to hosts file
 
 ```shell
 sudo vi /etc/hosts
@@ -51,15 +51,51 @@ Add the following line:
 127.0.0.1 app.codeigniter3.io
 ```
 
-4. Open Service in URL
+Open Service in URL
 
 ```shell
 http://app.codeigniter3.io/
 ```
 
-5. Screenshot Page
+## Deploying this package on Vercel with full compatibility
+
+First, make sure you have the Vercel CLI installed. If you haven't already, you can install it using npm (Node.js
+package manager):
+
+```shell
+npm install -g vercel
+```
+
+1. Navigate to your project directory containing the `nguyenanhung/codeigniter3-vercel-skeleton` application.
+2. Now, you need to log in to your Vercel account if you haven't already. Run the following command and follow the
+   prompts:
+
+```shell
+vercel login
+```
+
+Once logged in, you can deploy your project using the Vercel CLI. Run the following command:
+
+```shell
+vercel --prod
+```
+
+This command will deploy your project to Vercel with production settings. Vercel will provide you with a unique URL for
+your deployed application.
+
+Visit the provided URL in your web browser to access your deployed CodeIgniter v3 application on Vercel.
+
+That's it! Your application should now be deployed on Vercel with full compatibility. If you encounter any issues or
+need further assistance, feel free to ask.
+
+## Screenshot Page
 
 ![https://i.imgur.com/eMddCEJ.jpg](https://i.imgur.com/eMddCEJ.jpg)
+
+## Original Standard Version
+
+I have released a packaged distribution ready for deployment on On-Premise Servers or Cloud servers like AWS, GCP
+here: https://github.com/nguyenanhung/codeigniter3-skeleton
 
 ## Terms & Disclaimer
 
