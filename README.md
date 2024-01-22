@@ -1,22 +1,23 @@
 [![Latest Stable Version](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/v)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![Total Downloads](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/downloads)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![Latest Unstable Version](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/v/unstable)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![License](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/license)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![PHP Version Require](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/require/php)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton)
 
-# CodeIgniter v3 Framework - Skeleton Application - Vercel Deployment
+# CodeIgniter v3 Framework - Skeleton Vercel Application
 
-Bản Skeleton phục vụ triển khai ứng dụng web bằng `CodeIgniter v3 Framework` - triển khai trên ứng dụng Serverless
-`Vercel`. Được đóng gói lại thành packages nhằm mục đích triển khai ứng dụng nhanh chóng.
+This is the package `nguyenanhung/codeigniter3-skeleton`, customized, packaged, and configured to be suitable for
+deployment on the Serverless Vercel application.
 
-Source này được đóng gói để hỗ trợ cả mô hình MVC, HMVC với các lớp BaseControllers và BaseModule, dễ triển khai, mở
-rộng nhanh chóng và mạnh mẽ
+In this package, the main modifications are related to configuration to make it suitable for deployment. There isn't
+much difference compared to the `codeigniter3-skeleton` package.
 
 ## Install
 
-Chạy command sau để tiến hành cài đặt ứng dụng `nguyenanhung/codeigniter3-vercel-skeleton` và triển khai 1 dự án mới
+Run the following command to install the `nguyenanhung/codeigniter3-vercel-skeleton` application and deploy a new
+project:
 
 ```shell
 composer create-project nguyenanhung/codeigniter3-vercel-skeleton [my-app-name]
 ```
 
-Thay thế `[my-app-name]` bằng thư mục dự án mới cần triển khai, ví dụ: `my-website`
+Replace `[my-app-name]` with the name of your new project directory, for example, `my-website`:
 
 ```shell
 composer create-project nguyenanhung/codeigniter3-vercel-skeleton my-website
@@ -24,15 +25,15 @@ composer create-project nguyenanhung/codeigniter3-vercel-skeleton my-website
 
 ## Start Application on Local
 
-Triển khai ứng dụng nhanh với Docker được build sẵn
+Quickly deploy the application with a pre-built Docker container:
 
-1. Build docker
+1. Build the Docker container:
 
 ```shell
 docker-compose build
 ```
 
-2. Khởi chạy ứng dụng
+2. Start the application:
 
 ```shell
 docker-compose up -d
@@ -44,7 +45,7 @@ docker-compose up -d
 sudo vi /etc/hosts
 ```
 
-thêm dòng
+Add the following line:
 
 ```shell
 127.0.0.1 app.codeigniter3.io
@@ -60,17 +61,17 @@ http://app.codeigniter3.io/
 
 ![https://i.imgur.com/eMddCEJ.jpg](https://i.imgur.com/eMddCEJ.jpg)
 
-## Điều khoản & Từ chối trách nhiệm
+## Terms & Disclaimer
 
-Bộ skeleton này được public dưới dạng open source, bất cứ ai cũng có thể sử dụng open source này cho mục đích của riêng
-mình dưới giấy phép `GNU GENERAL PUBLIC LICENSE v3 or later`.
+This skeleton is publicly available as open source, and anyone can use it for their own purposes under
+the `GNU GENERAL PUBLIC LICENSE v3 or later`.
 
-Tôi không chịu trách nghiệm về việc bộ source này có thể được sử dụng cho các mục đích riêng biệt nào đó
+I am not responsible for any specific use of this source code.
 
-## Liên hệ
+## Contact
 
-Nếu có câu hỏi nào liên quan đến việc sử dụng bộ source này, vui lòng liên hệ tới thông tin sau đây
+If you have any questions related to the use of this source code, please contact me through the following information:
 
-| Name        | Email                | Skype            | Facebook      |
-|-------------|----------------------|------------------|---------------|
-| Hung Nguyen | dev@nguyenanhung.com | nguyenanhung5891 | @nguyenanhung |
+| Name        | Email                | GitHub        | Facebook      |
+|-------------|----------------------|---------------|---------------|
+| Hung Nguyen | dev@nguyenanhung.com | @nguyenanhung | @nguyenanhung |
