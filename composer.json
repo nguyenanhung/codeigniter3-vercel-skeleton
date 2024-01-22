@@ -1,6 +1,20 @@
 {
-    "description": "CodeIgniter v3 Vercel Skeleton Application",
     "name": "nguyenanhung/codeigniter3-vercel-skeleton",
+    "description": "CodeIgniter v3 Vercel Skeleton Application",
+    "keywords": [
+        "php",
+        "codeigniter",
+        "codeigniter3",
+        "codeigniter3-skeleton",
+        "codeigniter-helper",
+        "codeigniter-library",
+        "codeigniter-startapp",
+        "codeigniter-skeleton",
+        "vercel-php",
+        "vercel-codeigniter",
+        "vercel-codeigniter-skeleton",
+        "library"
+    ],
     "type": "project",
     "license": "GPL-3.0-or-later",
     "homepage": "https://github.com/nguyenanhung/codeigniter3-vercel-skeleton",
