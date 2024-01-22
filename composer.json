@@ -1,0 +1,35 @@
+{
+    "description": "CodeIgniter v3 Vercel Skeleton Application",
+    "name": "nguyenanhung/codeigniter3-vercel-skeleton",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://github.com/nguyenanhung/codeigniter3-vercel-skeleton",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "nguyenanhung/codeigniter-framework": "^3.2",
+        "nguyenanhung/my-debug": "^3.0",
+        "nguyenanhung/requests": "^3.0",
+        "nguyenanhung/basic-firewall": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\Support\\": "app/support/"
+        },
+        "classmap": [
+            "app/controllers/",
+            "app/libraries/",
+            "app/models/"
+        ]
+    }
+}

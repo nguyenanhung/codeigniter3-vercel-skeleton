@@ -1,0 +1,10 @@
+# PHP
+/vendor
+
+#IDE
+/.idea
+Homestead.json
+Homestead.yaml
+
+# Vercel
+.vercel
