@@ -1,3 +1,5 @@
+[![Latest Stable Version](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/v)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![Total Downloads](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/downloads)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![Latest Unstable Version](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/v/unstable)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![License](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/license)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![PHP Version Require](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/require/php)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton)
+
 # CodeIgniter v3 Framework - Skeleton Application - Vercel Deployment
 
 Bản Skeleton phục vụ triển khai ứng dụng web bằng `CodeIgniter v3 Framework` - triển khai trên ứng dụng Serverless
