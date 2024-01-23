@@ -24,8 +24,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 if (ENVIRONMENT === 'production') {
-    $config['base_url'] = 'https://codeigniter3-vercel-demo.vercel.app/';
-    $config['asset_url'] = 'https://codeigniter3-vercel-demo.vercel.app/';
+    $config['base_url'] = 'https://codeigniter3-vercel-skeleton.vercel.app/';
+    $config['asset_url'] = 'https://codeigniter3-vercel-skeleton.vercel.app/';
 } else {
     $config['base_url'] = 'http://app.codeigniter3.io/';
     $config['asset_url'] = 'http://app.codeigniter3.io/';
