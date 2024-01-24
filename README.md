@@ -8,6 +8,34 @@ deployment on the Serverless Vercel application.
 In this package, the main modifications are related to configuration to make it suitable for deployment. There isn't
 much difference compared to the `codeigniter3-skeleton` package.
 
+## Vercel Configure
+
+```json
+{
+    "version": 2,
+    "framework": null,
+    "functions": {
+        "api/**/*.php": {
+            "runtime": "vercel-php@0.6.1"
+        }
+    },
+    "outputDirectory": "public",
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ]
+}
+```
+
+## 💯 Vercel PHP Runtime Versions
+
+- `vercel-php@0.6.1` - Node 18.x / PHP 8.2.x (https://example-php-8-2.vercel.app)
+- `vercel-php@0.5.4` - Node 18.x / PHP 8.1.x (https://example-php-8-1.vercel.app)
+- `vercel-php@0.4.3` - Node 18.x / PHP 8.0.x (https://example-php-8-0.vercel.app)
+- `vercel-php@0.3.5` - Node 18.x / PHP 7.4.x (https://example-php-7-4.vercel.app)
+
 ## Install
 
 Run the following command to install the `nguyenanhung/codeigniter3-vercel-skeleton` application and deploy a new
