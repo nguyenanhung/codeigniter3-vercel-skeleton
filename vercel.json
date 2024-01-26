@@ -9,6 +9,10 @@
     "outputDirectory": "public",
     "routes": [
         {
+            "src": "/assets/(css|favicon|images|js)/(.*)",
+            "dest": "assets/$1/$2"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
