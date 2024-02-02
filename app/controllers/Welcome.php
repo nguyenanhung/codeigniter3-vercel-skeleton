@@ -9,12 +9,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
  */
 class Welcome extends HungNG_CI_Base_Controllers
 {
-    /**
-     * Welcome constructor.
-     *
-     * @author   : 713uk13m <dev@nguyenanhung.com>
-     * @copyright: 713uk13m <dev@nguyenanhung.com>
-     */
     public function __construct()
     {
         parent::__construct();
@@ -43,8 +37,14 @@ class Welcome extends HungNG_CI_Base_Controllers
         exit;
     }
 
-    public function command(): void
+    public function ip(): void
     {
-        ResponseOutput::writeLn("Welcome CodeIgniter 3 Framework at Time " . date('Y-m-d H:i:s'));
+        $this->output->set_status_header()->set_content_type('application/json', 'utf-8')->set_output(getIpInformation())->_display();
+        exit;
+    }
+
+    public function php()
+    {
+        phpinfo();
     }
 }
