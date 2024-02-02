@@ -132,7 +132,7 @@ need further assistance, feel free to ask.
 
 ## Screenshot Page
 
-![https://i.imgur.com/As96dK1.png](https://i.imgur.com/As96dK1.png)
+![https://i.imgur.com/ZbU4nVM.png](https://i.imgur.com/ZbU4nVM.png)
 
 ## Original Standard Version
 
