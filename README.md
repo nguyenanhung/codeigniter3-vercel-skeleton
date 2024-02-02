@@ -51,6 +51,20 @@ Replace `[my-app-name]` with the name of your new project directory, for example
 composer create-project nguyenanhung/codeigniter3-vercel-skeleton my-website
 ```
 
+## Start Application with Native PHP
+
+Start PHP Server:
+
+```shell
+composer start
+```
+
+Open Service in URL
+
+```shell
+http://localhost:8080/
+```
+
 ## Start Application on Docker
 
 Quickly deploy the application with a pre-built Docker container:

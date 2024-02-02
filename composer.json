@@ -74,5 +74,9 @@
         "nguyenanhung/monitor": "Need support for Send Monitor Message to Monitor Service",
         "nguyenanhung/markdown": "Parser for Markdown",
         "nguyenanhung/basic-firewall": "PHP Basic Firewall - Library providing IP filtering features"
+    },
+    "prefer-stable": true,
+    "scripts": {
+        "start": "php -S localhost:8080"
     }
 }

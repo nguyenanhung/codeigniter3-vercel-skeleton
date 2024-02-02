@@ -27,8 +27,8 @@ if (ENVIRONMENT === 'production') {
     $config['base_url'] = 'https://codeigniter3-vercel-skeleton.vercel.app/';
     $config['asset_url'] = 'https://codeigniter3-vercel-skeleton.vercel.app/';
 } else {
-    $config['base_url'] = 'http://app.codeigniter3.io/';
-    $config['asset_url'] = 'http://app.codeigniter3.io/';
+    $config['base_url'] = 'http://localhost:8080/';
+    $config['asset_url'] = 'http://localhost:8080/';
 }
 
 /*
@@ -70,7 +70,7 @@ $config['uri_protocol'] = 'REQUEST_URI';
 |
 | https://codeigniter.com/user_guide/general/urls.html
 */
-$config['url_suffix'] = '.html';
+$config['url_suffix'] = '';
 
 /*
 |--------------------------------------------------------------------------
