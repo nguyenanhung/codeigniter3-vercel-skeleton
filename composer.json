@@ -1,82 +1,82 @@
 {
-    "name": "nguyenanhung/codeigniter3-vercel-skeleton",
-    "description": "CodeIgniter v3 Vercel Skeleton Application",
-    "keywords": [
-        "php",
-        "library",
-        "helper",
-        "skeleton",
-        "startapp",
-        "codeigniter",
-        "codeigniter3",
-        "codeigniter3-skeleton",
-        "codeigniter-helper",
-        "codeigniter-library",
-        "codeigniter-startapp",
-        "codeigniter-skeleton",
-        "docker-php",
-        "vercel-php",
-        "vercel-codeigniter",
-        "vercel-codeigniter-skeleton"
-    ],
-    "type": "project",
-    "license": "GPL-3.0-or-later",
-    "homepage": "https://github.com/nguyenanhung/codeigniter3-vercel-skeleton",
-    "authors": [
-        {
-            "name": "Nguyen An Hung",
-            "email": "dev@nguyenanhung.com",
-            "homepage": "https://nguyenanhung.com",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/nguyenanhung/codeigniter3-vercel-skeleton/issues",
-        "wiki": "https://github.com/nguyenanhung/codeigniter3-vercel-skeleton/wiki",
-        "source": "https://github.com/nguyenanhung/codeigniter3-vercel-skeleton"
-    },
-    "require": {
-        "php": "^7.1 || ^8.0",
-        "ext-curl": "*",
-        "ext-json": "*",
-        "ext-mbstring": "*",
-        "nguyenanhung/codeigniter-framework": "^3.2",
-        "nguyenanhung/my-debug": "^3.0",
-        "nguyenanhung/requests": "^3.0",
-        "nguyenanhung/basic-firewall": "^2.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "nguyenanhung\\Support\\": "app/support/"
-        },
-        "classmap": [
-            "app/controllers/",
-            "app/libraries/",
-            "app/models/"
-        ]
-    },
-    "suggest": {
-        "ext-curl": "Needs for support CURL",
-        "ext-json": "Needs for support JSON",
-        "ext-zend opcache": "Needs for support OpCache",
-        "ext-xml": "Needs for support XML",
-        "ext-simplexml": "Needs for support SimpleXML",
-        "nguyenanhung/codeigniter3-skeleton": "The Standard and Powerful CodeIgniter 3.2.x Skeletelon",
-        "nguyenanhung/helpers": "Awesome Helpers - Powerful Library, Helpers and Tools",
-        "nguyenanhung/security": "Awesome Helpers - Wrapper for Security, Encrypt, Encode, Purifier",
-        "nguyenanhung/validation": "Awesome Validation - A fast, extensible & stand-alone PHP input validation class that allows you to validate any data",
-        "nguyenanhung/image": "Need support for Image Service",
-        "nguyenanhung/seo": "Need support for SEO",
-        "nguyenanhung/my-cache": "Need support for Powerful Cache Implement",
-        "nguyenanhung/my-debug": "Need support for Powerful Logger (Extend from Monolog)",
-        "nguyenanhung/requests": "Need support for Powerful HTTP Request",
-        "nguyenanhung/database": "Need support for Powerful SQL Database Tools (Customize Laravel Database)",
-        "nguyenanhung/monitor": "Need support for Send Monitor Message to Monitor Service",
-        "nguyenanhung/markdown": "Parser for Markdown",
-        "nguyenanhung/basic-firewall": "PHP Basic Firewall - Library providing IP filtering features"
-    },
-    "prefer-stable": true,
-    "scripts": {
-        "start": "php -S localhost:8080"
-    }
+  "name": "nguyenanhung/codeigniter3-vercel-skeleton",
+  "description": "CodeIgniter v3 Vercel Skeleton Application",
+  "keywords": [
+	"php",
+	"library",
+	"helper",
+	"skeleton",
+	"startapp",
+	"codeigniter",
+	"codeigniter3",
+	"codeigniter3-skeleton",
+	"codeigniter-helper",
+	"codeigniter-library",
+	"codeigniter-startapp",
+	"codeigniter-skeleton",
+	"docker-php",
+	"vercel-php",
+	"vercel-codeigniter",
+	"vercel-codeigniter-skeleton"
+  ],
+  "type": "project",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/nguyenanhung/codeigniter3-vercel-skeleton",
+  "authors": [
+	{
+	  "name": "Nguyen An Hung",
+	  "email": "dev@nguyenanhung.com",
+	  "homepage": "https://nguyenanhung.com",
+	  "role": "Developer"
+	}
+  ],
+  "support": {
+	"issues": "https://github.com/nguyenanhung/codeigniter3-vercel-skeleton/issues",
+	"wiki": "https://github.com/nguyenanhung/codeigniter3-vercel-skeleton/wiki",
+	"source": "https://github.com/nguyenanhung/codeigniter3-vercel-skeleton"
+  },
+  "require": {
+	"php": "^7.1 || ^8.0",
+	"ext-curl": "*",
+	"ext-json": "*",
+	"ext-mbstring": "*",
+	"nguyenanhung/codeigniter-framework": "^3.2",
+	"nguyenanhung/my-debug": "^4.0 || ^3.0",
+	"nguyenanhung/requests": "^4.0 || ^3.0",
+	"nguyenanhung/basic-firewall": "^2.0"
+  },
+  "autoload": {
+	"psr-4": {
+	  "nguyenanhung\\Support\\": "app/support/"
+	},
+	"classmap": [
+	  "app/controllers/",
+	  "app/libraries/",
+	  "app/models/"
+	]
+  },
+  "suggest": {
+	"ext-curl": "Needs for support CURL",
+	"ext-json": "Needs for support JSON",
+	"ext-zend opcache": "Needs for support OpCache",
+	"ext-xml": "Needs for support XML",
+	"ext-simplexml": "Needs for support SimpleXML",
+	"nguyenanhung/codeigniter3-skeleton": "The Standard and Powerful CodeIgniter 3.2.x Skeletelon",
+	"nguyenanhung/helpers": "Awesome Helpers - Powerful Library, Helpers and Tools",
+	"nguyenanhung/security": "Awesome Helpers - Wrapper for Security, Encrypt, Encode, Purifier",
+	"nguyenanhung/validation": "Awesome Validation - A fast, extensible & stand-alone PHP input validation class that allows you to validate any data",
+	"nguyenanhung/image": "Need support for Image Service",
+	"nguyenanhung/seo": "Need support for SEO",
+	"nguyenanhung/my-cache": "Need support for Powerful Cache Implement",
+	"nguyenanhung/my-debug": "Need support for Powerful Logger (Extend from Monolog)",
+	"nguyenanhung/requests": "Need support for Powerful HTTP Request",
+	"nguyenanhung/database": "Need support for Powerful SQL Database Tools (Customize Laravel Database)",
+	"nguyenanhung/monitor": "Need support for Send Monitor Message to Monitor Service",
+	"nguyenanhung/markdown": "Parser for Markdown",
+	"nguyenanhung/basic-firewall": "PHP Basic Firewall - Library providing IP filtering features"
+  },
+  "prefer-stable": true,
+  "scripts": {
+	"start": "php -S localhost:8080"
+  }
 }
