@@ -23,11 +23,16 @@ much difference compared to the `codeigniter3-skeleton` package.
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/api/index.php"
+            "dest": "/api/index.php?/$1"
         }
     ]
 }
 ```
+
+## Vercel Node.js Version
+
+- `vercel-node.js` version `18.x`
+  ![https://i.imgur.com/EL7UAh8.png](https://i.imgur.com/EL7UAh8.png)
 
 ## 💯 Vercel PHP Runtime Versions
 
