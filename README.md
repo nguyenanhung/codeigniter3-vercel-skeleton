@@ -16,11 +16,15 @@ much difference compared to the `codeigniter3-skeleton` package.
     "framework": null,
     "functions": {
         "api/**/*.php": {
-            "runtime": "vercel-php@0.6.1"
+            "runtime": "vercel-php@0.7.1"
         }
     },
     "outputDirectory": "public",
     "routes": [
+        {
+            "src": "/assets/(css|favicon|images|js)/(.*)",
+            "dest": "assets/$1/$2"
+        },
         {
             "src": "/(.*)",
             "dest": "/api/index.php?/$1"
