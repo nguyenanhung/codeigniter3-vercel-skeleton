@@ -1,4 +1,5 @@
 <?php
+
 defined('BASEPATH') or exit('No direct script access allowed');
 
 /**
@@ -26,7 +27,8 @@ class Welcome extends HungNG_CI_Base_Controllers
             ],
             'request' => [
                 'ip' => getIPAddress(),
-                'user_agent' => $this->input->user_agent(true)
+                'user_agent' => $this->input->user_agent(true),
+                'php_version' => PHP_VERSION
             ]
         ];
         $this->output
@@ -39,7 +41,9 @@ class Welcome extends HungNG_CI_Base_Controllers
 
     public function ip(): void
     {
-        $this->output->set_status_header()->set_content_type('application/json', 'utf-8')->set_output(getIpInformation())->_display();
+        $this->output->set_status_header()->set_content_type('application/json', 'utf-8')->set_output(
+            getIpInformation()
+        )->_display();
         exit;
     }
 
