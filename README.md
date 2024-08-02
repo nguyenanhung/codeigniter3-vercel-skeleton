@@ -36,7 +36,7 @@ much difference compared to the `codeigniter3-skeleton` package.
 
 ## 💯 Vercel PHP Runtime Versions
 
-- `vercel-php@0.7.1` - Node 18.x / PHP 8.2.x (https://example-php-8-3.vercel.app)
+- `vercel-php@0.7.1` - Node 18.x / PHP 8.3.x (https://example-php-8-3.vercel.app)
 - `vercel-php@0.6.2` - Node 18.x / PHP 8.2.x (https://example-php-8-2.vercel.app)
 - `vercel-php@0.5.5` - Node 18.x / PHP 8.1.x (https://example-php-8-1.vercel.app)
 - `vercel-php@0.4.5` - Node 18.x / PHP 8.0.x (https://example-php-8-0.vercel.app)
