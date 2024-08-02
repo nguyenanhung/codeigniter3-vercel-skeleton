@@ -3,7 +3,7 @@
     "framework": null,
     "functions": {
         "api/**/*.php": {
-            "runtime": "vercel-php@0.6.1"
+            "runtime": "vercel-php@0.6.2"
         }
     },
     "outputDirectory": "public",
