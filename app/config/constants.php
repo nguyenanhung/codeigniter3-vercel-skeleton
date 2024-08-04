@@ -1,4 +1,5 @@
 <?php
+
 defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
@@ -41,8 +42,14 @@ defined('DIR_WRITE_MODE') or define('DIR_WRITE_MODE', 0755);
 */
 defined('FOPEN_READ') or define('FOPEN_READ', 'rb');
 defined('FOPEN_READ_WRITE') or define('FOPEN_READ_WRITE', 'r+b');
-defined('FOPEN_WRITE_CREATE_DESTRUCTIVE') or define('FOPEN_WRITE_CREATE_DESTRUCTIVE', 'wb'); // truncates existing file data, use with care
-defined('FOPEN_READ_WRITE_CREATE_DESTRUCTIVE') or define('FOPEN_READ_WRITE_CREATE_DESTRUCTIVE', 'w+b'); // truncates existing file data, use with care
+defined('FOPEN_WRITE_CREATE_DESTRUCTIVE') or define(
+    'FOPEN_WRITE_CREATE_DESTRUCTIVE',
+    'wb'
+); // truncates existing file data, use with care
+defined('FOPEN_READ_WRITE_CREATE_DESTRUCTIVE') or define(
+    'FOPEN_READ_WRITE_CREATE_DESTRUCTIVE',
+    'w+b'
+); // truncates existing file data, use with care
 defined('FOPEN_WRITE_CREATE') or define('FOPEN_WRITE_CREATE', 'ab');
 defined('FOPEN_READ_WRITE_CREATE') or define('FOPEN_READ_WRITE_CREATE', 'a+b');
 defined('FOPEN_WRITE_CREATE_STRICT') or define('FOPEN_WRITE_CREATE_STRICT', 'xb');
@@ -89,8 +96,8 @@ defined('CACHE_KEY') or define('CACHE_KEY', 'BEAR_CUTE33_');
 defined('MY_TELEGRAM_ID') or define('MY_TELEGRAM_ID', '1234');
 defined('TELEGRAM_JARVIS_BOT') or define('TELEGRAM_JARVIS_BOT', [
     'telegram_messages' => [
-        'bot_name'        => 'xxx',
-        'bot_api_key'     => 'xxx',
+        'bot_name' => 'xxx',
+        'bot_api_key' => 'xxx',
         'default_chat_id' => MY_TELEGRAM_ID
     ]
 ]);

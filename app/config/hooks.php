@@ -1,4 +1,5 @@
 <?php
+
 defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
@@ -12,7 +13,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 $hook['display_override'][] = [
-    'class'    => '',
+    'class' => '',
     'function' => 'compress_html',
     'filename' => 'compress_html.php',
     'filepath' => 'hooks'

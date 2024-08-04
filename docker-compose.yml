@@ -1,81 +1,78 @@
 version: '3'
 services:
 
-    # PHP Service
-    codeigniter3-app:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        image: digitalocean.com/php
-        container_name: codeigniter3-app
-        restart: unless-stopped
-        tty: true
-        environment:
-            SERVICE_NAME: app
-            SERVICE_TAGS: dev
-        working_dir: /var/www
-        volumes:
-            - ./:/var/www
-            - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
-            - ./docker/php/opcache.ini:/usr/local/etc/php/conf.d/opcache.ini
-        networks:
-            - codeigniter3-app-network
+  # PHP Service
+  codeigniter3-app:
+    image: nguyenanhung/php80-fpm-alpine
+    container_name: codeigniter3-app
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
+      - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+      - ./docker/php/opcache.ini:/usr/local/etc/php/conf.d/opcache.ini
+    networks:
+      - codeigniter3-app-network
 
-    # NGINX Service
-    codeigniter3-webserver:
-        image: nginx:alpine
-        container_name: codeigniter3-webserver
-        restart: unless-stopped
-        tty: true
-        ports:
-            - "80:80"
-            - "443:443"
-        volumes:
-            - ./:/var/www
-            - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
-        networks:
-            - codeigniter3-app-network
+  # NGINX Service
+  codeigniter3-webserver:
+    image: nginx:alpine
+    container_name: codeigniter3-webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+    networks:
+      - codeigniter3-app-network
 
-    # MySQL Service
-    codeigniter3-mariadb:
-        image: mariadb:latest
-        container_name: codeigniter3-mariadb
-        hostname: mariadb
-        restart: unless-stopped
-        tty: true
-        ports:
-            - "33060:3306"
-        environment:
-            MYSQL_ROOT_PASSWORD: hungna
-        volumes:
-            - codeigniter3-db-data:/var/lib/mysql
-            - ./docker/mariadb/mariadb.cnf:/etc/mysql/mariadb.cnf
-        networks:
-            - codeigniter3-app-network
+  # MySQL Service
+  codeigniter3-mariadb:
+    image: mariadb:latest
+    container_name: codeigniter3-mariadb
+    hostname: mariadb
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "33060:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: hungna
+    volumes:
+      - codeigniter3-db-data:/var/lib/mysql
+      - ./docker/mariadb/mariadb.cnf:/etc/mysql/mariadb.cnf
+    networks:
+      - codeigniter3-app-network
 
-    # PHP MyAdmin Service
-    codeigniter3-phpmyadmin:
-        image: phpmyadmin/phpmyadmin:latest
-        container_name: codeigniter3-phpmyadmin
-        restart: unless-stopped
-        depends_on:
-            - codeigniter3-mariadb
-        environment:
-            - PMA_HOST=mariadb
-            - PMA_PORT=3306
-            - PMA_USER=root
-            - PMA_PASSWORD=hungna
-        ports:
-            - "3380:80"
-        networks:
-            - codeigniter3-app-network
+  # PHP MyAdmin Service
+  codeigniter3-phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: codeigniter3-phpmyadmin
+    restart: unless-stopped
+    depends_on:
+      - codeigniter3-mariadb
+    environment:
+      - PMA_HOST=mariadb
+      - PMA_PORT=3306
+      - PMA_USER=root
+      - PMA_PASSWORD=hungna
+    ports:
+      - "3380:80"
+    networks:
+      - codeigniter3-app-network
 
 #Docker Networks
 networks:
-    codeigniter3-app-network:
-        driver: bridge
+  codeigniter3-app-network:
+    driver: bridge
 
 #Volumes
 volumes:
-    codeigniter3-db-data:
-        driver: local
+  codeigniter3-db-data:
+    driver: local

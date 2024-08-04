@@ -1,4 +1,5 @@
 <?php
+
 defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
@@ -384,7 +385,9 @@ $config['encryption_key'] = hex2bin('b8bc4dacca2d4e90bd6f5d78a5f7ca4161e00f81349
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = sha1('Session_Cookie_Name_HungNG_CodeIgniter_v3_skeleton_tVdOt99RreiaULriXOnxflwCzehBxQNc');
+$config['sess_cookie_name'] = sha1(
+    'Session_Cookie_Name_HungNG_CodeIgniter_v3_skeleton_tVdOt99RreiaULriXOnxflwCzehBxQNc'
+);
 $config['sess_expiration'] = 7200;
 if (ENVIRONMENT === 'development') {
     $config['sess_save_path'] = __DIR__ . '/../../storage/ci_sessions/';
@@ -459,8 +462,12 @@ $config['global_xss_filtering'] = false;
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
 $config['csrf_protection'] = false;
-$config['csrf_token_name'] = sha1(ENVIRONMENT . 'CodeIgniter_v3_skeleton_i0ewkTGviUJ53ZU4vcXn31zamsJOtXns_csrf_test_name');
-$config['csrf_cookie_name'] = sha1(ENVIRONMENT . 'CodeIgniter_v3_skeleton_i0ewkTGviUJ53ZU4vcXn31zamsJOtXns_csrf_cookie_name');
+$config['csrf_token_name'] = sha1(
+    ENVIRONMENT . 'CodeIgniter_v3_skeleton_i0ewkTGviUJ53ZU4vcXn31zamsJOtXns_csrf_test_name'
+);
+$config['csrf_cookie_name'] = sha1(
+    ENVIRONMENT . 'CodeIgniter_v3_skeleton_i0ewkTGviUJ53ZU4vcXn31zamsJOtXns_csrf_cookie_name'
+);
 $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = true;
 $config['csrf_exclude_uris'] = array();
