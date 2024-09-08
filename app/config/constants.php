@@ -92,7 +92,8 @@ defined('EXIT__AUTO_MIN') or define('EXIT__AUTO_MIN', 9); // lowest automaticall
 defined('EXIT__AUTO_MAX') or define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 // Custom Constants
 defined('_PROCESS_TEST_') or define('_PROCESS_TEST_', false);
-defined('CACHE_KEY') or define('CACHE_KEY', 'BEAR_CUTE33_');
+defined('CACHE_KEY') or define('CACHE_KEY', 'Bear-CodeIgniter-v3-Skeleton-on-Vercel-Cache-');
+defined('GLOBAL_CACHE_PREFIX') or define('GLOBAL_CACHE_PREFIX', CACHE_KEY);
 defined('MY_TELEGRAM_ID') or define('MY_TELEGRAM_ID', '1234');
 defined('TELEGRAM_JARVIS_BOT') or define('TELEGRAM_JARVIS_BOT', [
     'telegram_messages' => [

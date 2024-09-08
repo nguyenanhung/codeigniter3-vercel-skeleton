@@ -541,6 +541,7 @@ $config['proxy_ips'] = '';
 
 require_once __DIR__ . '/hmvc.php';
 require_once __DIR__ . '/extend/admin_config.php';
+require_once __DIR__ . '/extend/config_cache.php';
 require_once __DIR__ . '/extend/config_site.php';
 require_once __DIR__ . '/extend/config_template.php';
 require_once __DIR__ . '/extend/config_hashids.php';
