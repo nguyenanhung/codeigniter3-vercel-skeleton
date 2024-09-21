@@ -1,4 +1,7 @@
-[![Latest Stable Version](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/v)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![Total Downloads](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/downloads)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![Latest Unstable Version](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/v/unstable)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![License](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/license)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton) [![PHP Version Require](http://poser.pugx.org/nguyenanhung/codeigniter3-vercel-skeleton/require/php)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton)
+[![Latest Stable Version](https://img.shields.io/packagist/v/nguyenanhung/codeigniter3-vercel-skeleton.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton)
+[![Total Downloads](https://img.shields.io/packagist/dt/nguyenanhung/codeigniter3-vercel-skeleton.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton)
+[![License](https://img.shields.io/packagist/l/nguyenanhung/codeigniter3-vercel-skeleton.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton)
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/nguyenanhung/codeigniter3-vercel-skeleton/php)](https://packagist.org/packages/nguyenanhung/codeigniter3-vercel-skeleton)
 
 # CodeIgniter v3 Framework - Skeleton Vercel Application
 
