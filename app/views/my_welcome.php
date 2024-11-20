@@ -218,10 +218,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </head>
 <body>
 <div id="clouds">
-    <img class="cloud1" src="https://hungna.github.io/assets/themes/clouds/assets/clouds/cloud-1.png" alt="Cloud-1" />
-    <img class="cloud2" src="https://hungna.github.io/assets/themes/clouds/assets/clouds/cloud-2.png" alt="Cloud-2" />
-    <img class="cloud3" src="https://hungna.github.io/assets/themes/clouds/assets/clouds/cloud-3.png" alt="Cloud-3" />
-    <img class="cloud4" src="https://hungna.github.io/assets/themes/clouds/assets/clouds/cloud-4.png" alt="Cloud-4" />
+    <img class="cloud1" src="https://i3.wp.com/hungna.github.io/assets/themes/clouds/assets/clouds/cloud-1.png" alt="Cloud-1" />
+    <img class="cloud2" src="https://i3.wp.com/hungna.github.io/assets/themes/clouds/assets/clouds/cloud-2.png" alt="Cloud-2" />
+    <img class="cloud3" src="https://i3.wp.com/hungna.github.io/assets/themes/clouds/assets/clouds/cloud-3.png" alt="Cloud-3" />
+    <img class="cloud4" src="https://i3.wp.com/hungna.github.io/assets/themes/clouds/assets/clouds/cloud-4.png" alt="Cloud-4" />
 </div>
 
 <div class="site_content">
@@ -269,7 +269,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </script>
 <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js'></script>
 <script>
-    $.backstretch("https://hungna.github.io/assets/images/khi-mat-troi-buong-xuong.jpeg", {speed: 500});
+    $.backstretch("https://i3.wp.com/hungna.github.io/assets/images/khi-mat-troi-buong-xuong.jpeg", {speed: 500});
 </script>
 </body>
 </html>

@@ -10,7 +10,7 @@
     <link type="text/css" media="all" href="https://hungna.github.io/assets/themes/sailor/assets/css/style.css" rel="stylesheet" />
     <link type="text/css" media="all" href="https://hungna.github.io/assets/themes/sailor/assets/css/responsive.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,800italic,800,700italic,700,600italic,600,400italic,300' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" href="https://hungna.github.io/assets/themes/sailor/assets/img/favicon.png" />
+    <link rel="shortcut icon" href="https://i3.wp.com/hungna.github.io/assets/themes/sailor/assets/img/favicon.png" />
 </head>
 <body>
 <!-- Header -->
