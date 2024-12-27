@@ -28,7 +28,8 @@ class Welcome extends HungNG_CI_Base_Controllers
             'request' => [
                 'ip' => getIPAddress(),
                 'user_agent' => $this->input->user_agent(true),
-                'php_version' => PHP_VERSION
+                'php_version' => PHP_VERSION,
+                'current_url' => current_url(),
             ]
         ];
         $this->output
