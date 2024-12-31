@@ -6,11 +6,11 @@
     <title>DATABASE ERROR</title>
     <meta name="author" content="Hung Nguyen - dev@nguyenanhung.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link type="text/css" media="all" href="https://hungna.github.io/assets/themes/sailor/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link type="text/css" media="all" href="https://hungna.github.io/assets/themes/sailor/assets/css/style.css" rel="stylesheet" />
     <link type="text/css" media="all" href="https://hungna.github.io/assets/themes/sailor/assets/css/responsive.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,800italic,800,700italic,700,600italic,600,400italic,300' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" href="https://i3.wp.com/hungna.github.io/assets/themes/sailor/assets/img/favicon.png" />
+    <link rel="shortcut icon" href="https://hungna.github.io/assets/themes/sailor/assets/img/favicon.png" />
 </head>
 <body>
 <!-- Header -->
@@ -70,7 +70,7 @@
 <!-- end Footer -->
 
 <!-- Scripts -->
-<script src="https://hungna.github.io/assets/themes/sailor/assets/js/jquery-1.11.2.min.js" type="text/javascript"></script>
-<script src="https://hungna.github.io/assets/themes/sailor/assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
