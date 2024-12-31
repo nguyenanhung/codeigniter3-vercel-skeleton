@@ -68,7 +68,7 @@ class Welcome extends HungNG_CI_Base_Controllers
     {
         $data = array(
             'function_check' => array(
-                'pg_connect' => $this->pgsql_function_check('pg_connect'),
+                'pg_connect' => $this->pgsql_function_check(),
                 'pg_close' => $this->pgsql_function_check('pg_close'),
                 'pg_query' => $this->pgsql_function_check('pg_query'),
                 'pg_escape_string' => $this->pgsql_function_check('pg_escape_string'),
